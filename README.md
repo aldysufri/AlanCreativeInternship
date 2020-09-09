@@ -1,4 +1,18 @@
 # AlanCreativeInternship
-Nomor 4 menggunakan bahasa pemrograman html untuk membuat function membentuk gambar seperti gambar di soal
+# No. 4
+Pada soal no 4, menggunakan bahasa html. Dengan Output :
+<pre>
+<strong>$</strong> html Num4.html
+* = = = * 
+* = = = * 
+* * * * * 
+* = = = * 
+* = = = * 
+</pre>
 
-Nomor 6a menggunakan phpmyadmin untuk membuat database sesuai perintah di soal
+# 6A
+Dibuat database menggunakan phpMyAdmin. sourcecode untuk querynya :
+
+<pre>
+SELECT name.name, work.work, category.salary FROM name, work, category WHERE name.id_work=work.id AND name.id_salary=category.id; 
+</pre> soal
